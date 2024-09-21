@@ -4,7 +4,7 @@ import settingsIcon from "../../../public/gear-six.svg";
 import userIcon from "../../../public/user-circle.svg";
 import folderIcon from "../../../public/folder-open.svg";
 import SidebarIcon from './SidebarIcon';
-import { getRemSize, handleMouseDown } from '.';
+import { getRemSize, handleMouseDown } from './helpers';
 
 const Sidebar: React.FC = () => {
 	const [size, setSize] = useState<{ width: number }>({ width: 20 * getRemSize() });
