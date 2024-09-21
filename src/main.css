@@ -11,7 +11,15 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+
+
+  /* Variables */
+  --primary: rgb(39, 36, 51);
+  --primary-l3: rgba(39, 36, 51, 0.349);
+  --black: #242424;
 }
+
 body {
   margin: 0;
 }

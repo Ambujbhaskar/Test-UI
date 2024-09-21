@@ -25,6 +25,17 @@ function App() {
       <span className='content'>
         <h1>LETS GOO</h1>
         <h2>{count}</h2>
+        <div className='video-player-container'>
+          <video
+            controls
+            className='video-player'
+          >
+            <source src="../public/big-chung.mp4" type="video/mp4" />
+            Download the
+            <a href="../public/big-chung.mp4">MP4</a>
+            video.
+          </video>
+        </div>
       </span>
       <StatusBar selectedChars={selectedChars} />
     </main>
